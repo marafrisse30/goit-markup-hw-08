@@ -21,7 +21,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 210px;
+  max-width: 210px;
   height: 92px;
   border: 1px solid var(--icon-color);
   border-radius: 4px;
@@ -42,7 +42,7 @@
 }
 @media screen and(min-width:768px) {
   .client__link {
-    min-width: 226px;
+    max-width: 226px;
   }
   .client__item {
     flex-basis: calc((100% - 90px) / 3);
@@ -56,7 +56,7 @@
     line-height: 1.17;
   }
   .client__link {
-    min-width: 170px;
+    max-width: 170px;
   }
   .client__item {
     flex-basis: calc((100% - 180px) / 6);

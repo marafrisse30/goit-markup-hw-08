@@ -9,7 +9,7 @@
   margin-bottom: 30px;
   background: #f5f4fa;
   border-radius: 4px;
-  min-width: 450px;
+  max-width: 450px;
 }
 .advantage__suptitle {
   text-align: center;
@@ -43,7 +43,7 @@
     margin-top: 30px;
   }
   .advantage__icon-box {
-    min-width: 354px;
+    max-width: 354px;
   }
   .advantage__suptitle {
     text-align: unset;
@@ -60,7 +60,7 @@
     margin-top: 0px;
   }
   .advantage__icon-box {
-    min-width: 270px;
+    max-width: 270px;
   }
   .advantage__list {
     flex-wrap: unset;

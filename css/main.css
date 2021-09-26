@@ -353,7 +353,7 @@ body {
   margin-bottom: 30px;
   background: #f5f4fa;
   border-radius: 4px;
-  min-width: 450px;
+  max-width: 450px;
 }
 
 .advantage__suptitle {
@@ -388,7 +388,7 @@ body {
     margin-top: 30px;
   }
   .advantage__icon-box {
-    min-width: 354px;
+    max-width: 354px;
   }
   .advantage__suptitle {
     text-align: unset;
@@ -405,7 +405,7 @@ body {
     margin-right: 30px;
   }
   .advantage__icon-box {
-    min-width: 270px;
+    max-width: 270px;
   }
   .advantage__list {
     flex-wrap: unset;
@@ -543,7 +543,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 210px;
+  max-width: 210px;
   height: 92px;
   border: 1px solid var(--icon-color);
   border-radius: 4px;
@@ -566,7 +566,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .client__link {
-    min-width: 226px;
+    max-width: 226px;
   }
   .client__item {
     flex-basis: calc((100% - 90px) / 3);
@@ -581,7 +581,7 @@ body {
     line-height: 1.17;
   }
   .client__link {
-    min-width: 170px;
+    max-width: 170px;
   }
   .client__item {
     flex-basis: calc((100% - 180px) / 6);
