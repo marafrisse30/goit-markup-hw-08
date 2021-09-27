@@ -121,7 +121,6 @@ body {
 
 @media screen and (min-width: 1200px) {
   .logo {
-    margin-right: 93px;
     font-size: 26px;
     line-height: 1.2;
   }
@@ -139,7 +138,7 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 20px;
+  margin-top: 16px;
 }
 
 .social__item {
@@ -181,6 +180,10 @@ body {
 
 .social__background-gray {
   background: rgba(255, 255, 255, 0.1);
+}
+
+.social__list-footer {
+  margin-top: 20px;
 }
 
 .backdrop {
