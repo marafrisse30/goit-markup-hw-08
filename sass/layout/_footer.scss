@@ -177,16 +177,13 @@
   }
   .footer__email-container {
     display: flex;
-    margin-top: 20px;
+    align-items: baseline;
   }
   .footer__social-form-input {
     min-width: 358px;
     margin-right: 12px;
-    margin-top: 0;
   }
-  .footer__social-button {
-    margin-top: 0;
-  }
+
   .footer__item {
     &:not(:last-child) {
       margin-bottom: 9px;
@@ -202,5 +199,9 @@
   }
   .footer__social-form {
     text-align: unset;
+  }
+  .footer__container-tablet {
+    display: flex;
+    align-items: baseline;
   }
 }
