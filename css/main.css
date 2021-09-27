@@ -434,7 +434,7 @@ body {
 
 @media screen and (min-width: 1200px) {
   .about {
-    display: unset;
+    display: block;
   }
 }
 
