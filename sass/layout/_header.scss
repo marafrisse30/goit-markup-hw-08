@@ -94,9 +94,6 @@
     margin-bottom: 32px;
   }
 }
-.nav-list {
-  margin-bottom: 302px;
-}
 .mobile-menu-contact__link-tel {
   font-weight: 500;
   font-size: 34px;
@@ -121,6 +118,7 @@
 }
 .mobile-menu-social__list {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 .mobile-menu-social__span {

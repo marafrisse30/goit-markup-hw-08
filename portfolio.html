@@ -121,13 +121,13 @@
           <h2 hidden>Лист категорий</h2>
           <ul class="category__list list">
             <li class="category__item">
-              <button class="category__button" type="button">Все</button>
+              <button class="category__button button-margin" type="button">Все</button>
             </li>
             <li class="category__item">
-              <button class="category__button" type="button">Веб-сайты</button>
+              <button class="category__button button-margin" type="button">Веб-сайты</button>
             </li>
             <li class="category__item">
-              <button class="category__button" type="button">Приложения</button>
+              <button class="category__button button-margin" type="button">Приложения</button>
             </li>
             <li class="category__item">
               <button class="category__button" type="button">Дизайн</button>
@@ -140,13 +140,54 @@
             <li class="product__item">
               <a class="product__link link" href=""
                 ><div class="product__thumb">
-                  <img
-                    class="product__image"
-                    src="./images/portfolio/list-foto-1.jpg"
-                    alt="фотография на ноутбуке"
-                    width="370"
-                    height="294"
-                  />
+                  <picture class="product__picture">
+                    <source
+                      media="(min-width: 1200px )"
+                      srcset="
+                        ./images/portfolio/list-foto-desctop-1.webp    1x,
+                        ./images/portfolio/list-foto-desctop-1@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:1200px )"
+                      srcset="
+                        ./images/portfolio/list-foto-desctop-1    1x,
+                        ./images/portfolio/list-foto-desctop-1@2x 2x
+                      "
+                    />
+                    <source
+                      media="(min-width:768px )"
+                      srcset="
+                        ./images/portfolio/list-foto-tablet-1.webp    1x,
+                        ./images/portfolio/list-foto-tablet-1@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:768px )"
+                      srcset="
+                        ./images/portfolio/list-foto-tablet-1    1x,
+                        ./images/portfolio/list-foto-tablet-1@2x 2x
+                      "
+                    />
+                    <source
+                      media="(min-width:320px )"
+                      srcset="
+                        ./images/portfolio/list-foto-mobile-1.webp    1x,
+                        ./images/portfolio/list-foto-mobile-1@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:320px )"
+                      srcset="
+                        ./images/portfolio/list-foto-mobile-1    1x,
+                        ./images/portfolio/list-foto-mobile-1@2x 2x
+                      "
+                    />
+                    <img class="product__image" src="#" alt="фотография на ноутбуке" />
+                  </picture>
                   <div class="product__overlay">
                     <p class="product__overlay-text">
                       Технокряк это современная площадка распространения коронавируса. Компании
@@ -166,13 +207,55 @@
             <li class="product__item">
               <a class="product__link link" href="">
                 <div class="product__thumb">
-                  <img
-                    class="product__image"
-                    src="./images/portfolio/list-foto-2.jpg"
-                    alt="фотография на ноутбуке"
-                    width="370"
-                    height="294"
-                  />
+                  <picture class="product__picture">
+                    <source
+                      media="(min-width: 1200px )"
+                      srcset="
+                        ./images/portfolio/list-foto-desctop-2.webp    1x,
+                        ./images/portfolio/list-foto-desctop-2@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:1200px )"
+                      srcset="
+                        ./images/portfolio/list-foto-desctop-2    1x,
+                        ./images/portfolio/list-foto-desctop-2@2x 2x
+                      "
+                    />
+                    <source
+                      media="(min-width:768px )"
+                      srcset="
+                        ./images/portfolio/list-foto-tablet-2.webp    1x,
+                        ./images/portfolio/list-foto-tablet-2@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:768px )"
+                      srcset="
+                        ./images/portfolio/list-foto-tablet-2    1x,
+                        ./images/portfolio/list-foto-tablet-2@2x 2x
+                      "
+                    />
+                    <source
+                      media="(min-width:320px )"
+                      srcset="
+                        ./images/portfolio/list-foto-mobile-2.webp    1x,
+                        ./images/portfolio/list-foto-mobile-2@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:320px )"
+                      srcset="
+                        ./images/portfolio/list-foto-mobile-2    1x,
+                        ./images/portfolio/list-foto-mobile-2@2x 2x
+                      "
+                    />
+                    <img class="product__image" src="#" alt="фотография на ноутбуке" />
+                  </picture>
+
                   <div class="product__overlay">
                     <p class="product__overlay-text">
                       Технокряк это современная площадка распространения коронавируса. Компании
@@ -190,13 +273,54 @@
             <li class="product__item">
               <a class="product__link link" href=""
                 ><div class="product__thumb">
-                  <img
-                    class="product__image"
-                    src="./images/portfolio/list-foto-3.jpg"
-                    alt="фотография на ноутбуке"
-                    width="370"
-                    height="294"
-                  />
+                  <picture class="product__picture">
+                    <source
+                      media="(min-width: 1200px )"
+                      srcset="
+                        ./images/portfolio/list-foto-desctop-3.webp    1x,
+                        ./images/portfolio/list-foto-desctop-3@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:1200px )"
+                      srcset="
+                        ./images/portfolio/list-foto-desctop-3    1x,
+                        ./images/portfolio/list-foto-desctop-3@2x 2x
+                      "
+                    />
+                    <source
+                      media="(min-width:768px )"
+                      srcset="
+                        ./images/portfolio/list-foto-tablet-3.webp    1x,
+                        ./images/portfolio/list-foto-tablet-3@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:768px )"
+                      srcset="
+                        ./images/portfolio/list-foto-tablet-3    1x,
+                        ./images/portfolio/list-foto-tablet-3@2x 2x
+                      "
+                    />
+                    <source
+                      media="(min-width:320px )"
+                      srcset="
+                        ./images/portfolio/list-foto-mobile-3.webp    1x,
+                        ./images/portfolio/list-foto-mobile-3@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:320px )"
+                      srcset="
+                        ./images/portfolio/list-foto-mobile-3    1x,
+                        ./images/portfolio/list-foto-mobile-3@2x 2x
+                      "
+                    />
+                    <img class="product__image" src="#" alt="фотография на ноутбуке" />
+                  </picture>
                   <div class="product__overlay">
                     <p class="product__overlay-text">
                       Технокряк это современная площадка распространения коронавируса. Компании
@@ -214,13 +338,54 @@
             <li class="product__item">
               <a class="product__link link" href="">
                 <div class="product__thumb">
-                  <img
-                    class="product__image"
-                    src="./images/portfolio/list-foto-4.jpg"
-                    alt="фотография на ноутбуке"
-                    width="370"
-                    height="294"
-                  />
+                  <picture class="product__picture">
+                    <source
+                      media="(min-width: 1200px )"
+                      srcset="
+                        ./images/portfolio/list-foto-desctop-4.webp    1x,
+                        ./images/portfolio/list-foto-desctop-4@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:1200px )"
+                      srcset="
+                        ./images/portfolio/list-foto-desctop-4    1x,
+                        ./images/portfolio/list-foto-desctop-4@2x 2x
+                      "
+                    />
+                    <source
+                      media="(min-width:768px )"
+                      srcset="
+                        ./images/portfolio/list-foto-tablet-4.webp    1x,
+                        ./images/portfolio/list-foto-tablet-4@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:768px )"
+                      srcset="
+                        ./images/portfolio/list-foto-tablet-4    1x,
+                        ./images/portfolio/list-foto-tablet-4@2x 2x
+                      "
+                    />
+                    <source
+                      media="(min-width:320px )"
+                      srcset="
+                        ./images/portfolio/list-foto-mobile-4.webp    1x,
+                        ./images/portfolio/list-foto-mobile-4@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:320px )"
+                      srcset="
+                        ./images/portfolio/list-foto-mobile-4    1x,
+                        ./images/portfolio/list-foto-mobile-4@2x 2x
+                      "
+                    />
+                    <img class="product__image" src="#" alt="фотография на ноутбуке" />
+                  </picture>
                   <div class="product__overlay">
                     <p class="product__overlay-text">
                       Технокряк это современная площадка распространения коронавируса. Компании
@@ -238,13 +403,60 @@
             <li class="product__item">
               <a class="product__link link" href="">
                 <div class="product__thumb">
-                  <img
-                    class="product__image"
-                    src="./images/portfolio/list-foto-5.jpg"
-                    alt="фотография на ноутбуке"
-                    width="370"
-                    height="294"
-                  />
+                  <picture class="product__picture">
+                    <source
+                      media="(min-width: 1200px )"
+                      srcset="
+                        ./images/portfolio/list-foto-desctop-5.webp    1x,
+                        ./images/portfolio/list-foto-desctop-5@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:1200px )"
+                      srcset="
+                        ./images/portfolio/list-foto-desctop-5    1x,
+                        ./images/portfolio/list-foto-desctop-5@2x 2x
+                      "
+                    />
+                    <source
+                      media="(min-width:768px )"
+                      srcset="
+                        ./images/portfolio/list-foto-tablet-5.webp    1x,
+                        ./images/portfolio/list-foto-tablet-5@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:768px )"
+                      srcset="
+                        ./images/portfolio/list-foto-tablet-5    1x,
+                        ./images/portfolio/list-foto-tablet-5@2x 2x
+                      "
+                    />
+                    <source
+                      media="(min-width:320px )"
+                      srcset="
+                        ./images/portfolio/list-foto-mobile-5.webp    1x,
+                        ./images/portfolio/list-foto-mobile-5@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:320px )"
+                      srcset="
+                        ./images/portfolio/list-foto-mobile-5    1x,
+                        ./images/portfolio/list-foto-mobile-5@2x 2x
+                      "
+                    />
+                    <img
+                      class="product__image"
+                      src="#"
+                      alt="фотография на ноутбуке"
+                      width="370"
+                      height="294"
+                    />
+                  </picture>
                   <div class="product__overlay">
                     <p class="product__overlay-text">
                       Технокряк это современная площадка распространения коронавируса. Компании
@@ -262,13 +474,55 @@
             <li class="product__item">
               <a class="product__link link" href="">
                 <div class="product__thumb">
-                  <img
-                    class="product__image"
-                    src="./images/portfolio/list-foto-6.jpg"
-                    alt="фотография на ноутбуке"
-                    width="370"
-                    height="294"
-                  />
+                  <picture class="product__picture">
+                    <source
+                      media="(min-width: 1200px )"
+                      srcset="
+                        ./images/portfolio/list-foto-desctop-6.webp    1x,
+                        ./images/portfolio/list-foto-desctop-6@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:1200px )"
+                      srcset="
+                        ./images/portfolio/list-foto-desctop-6    1x,
+                        ./images/portfolio/list-foto-desctop-6@2x 2x
+                      "
+                    />
+                    <source
+                      media="(min-width:768px )"
+                      srcset="
+                        ./images/portfolio/list-foto-tablet-6.webp    1x,
+                        ./images/portfolio/list-foto-tablet-6@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:768px )"
+                      srcset="
+                        ./images/portfolio/list-foto-tablet-6    1x,
+                        ./images/portfolio/list-foto-tablet-6@2x 2x
+                      "
+                    />
+                    <source
+                      media="(min-width:320px )"
+                      srcset="
+                        ./images/portfolio/list-foto-mobile-6.webp    1x,
+                        ./images/portfolio/list-foto-mobile-6@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:320px )"
+                      srcset="
+                        ./images/portfolio/list-foto-mobile-6    1x,
+                        ./images/portfolio/list-foto-mobile-6@2x 2x
+                      "
+                    />
+                    <img class="product__image" src="#" alt="фотография на ноутбуке" />
+                  </picture>
+
                   <div class="product__overlay">
                     <p class="product__overlay-text">
                       Технокряк это современная площадка распространения коронавируса. Компании
@@ -286,13 +540,54 @@
             <li class="product__item">
               <a class="product__link link" href="">
                 <div class="product__thumb">
-                  <img
-                    class="product__image"
-                    src="./images/portfolio/list-foto-7.jpg"
-                    alt="фотография на ноутбуке"
-                    width="370"
-                    height="294"
-                  />
+                  <picture class="product__picture">
+                    <source
+                      media="(min-width: 1200px )"
+                      srcset="
+                        ./images/portfolio/list-foto-desctop-7.webp    1x,
+                        ./images/portfolio/list-foto-desctop-7@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:1200px )"
+                      srcset="
+                        ./images/portfolio/list-foto-desctop-7    1x,
+                        ./images/portfolio/list-foto-desctop-7@2x 2x
+                      "
+                    />
+                    <source
+                      media="(min-width:768px )"
+                      srcset="
+                        ./images/portfolio/list-foto-tablet-7.webp    1x,
+                        ./images/portfolio/list-foto-tablet-7@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:768px )"
+                      srcset="
+                        ./images/portfolio/list-foto-tablet-7    1x,
+                        ./images/portfolio/list-foto-tablet-7@2x 2x
+                      "
+                    />
+                    <source
+                      media="(min-width:320px )"
+                      srcset="
+                        ./images/portfolio/list-foto-mobile-7.webp    1x,
+                        ./images/portfolio/list-foto-mobile-7@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:320px )"
+                      srcset="
+                        ./images/portfolio/list-foto-mobile-7    1x,
+                        ./images/portfolio/list-foto-mobile-7@2x 2x
+                      "
+                    />
+                    <img class="product__image" src="#" alt="фотография на ноутбуке" />
+                  </picture>
                   <div class="product__overlay">
                     <p class="product__overlay-text">
                       Технокряк это современная площадка распространения коронавируса. Компании
@@ -310,13 +605,55 @@
             <li class="product__item">
               <a class="product__link link" href="">
                 <div class="product__thumb">
-                  <img
-                    class="product__image"
-                    src="./images/portfolio/list-foto-8.jpg"
-                    alt="фотография на ноутбуке"
-                    width="370"
-                    height="294"
-                  />
+                  <picture class="product__picture">
+                    <source
+                      media="(min-width: 1200px )"
+                      srcset="
+                        ./images/portfolio/list-foto-desctop-8.webp    1x,
+                        ./images/portfolio/list-foto-desctop-8@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:1200px )"
+                      srcset="
+                        ./images/portfolio/list-foto-desctop-8    1x,
+                        ./images/portfolio/list-foto-desctop-8@2x 2x
+                      "
+                    />
+                    <source
+                      media="(min-width:768px )"
+                      srcset="
+                        ./images/portfolio/list-foto-tablet-8.webp    1x,
+                        ./images/portfolio/list-foto-tablet-8@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:768px )"
+                      srcset="
+                        ./images/portfolio/list-foto-tablet-8    1x,
+                        ./images/portfolio/list-foto-tablet-8@2x 2x
+                      "
+                    />
+                    <source
+                      media="(min-width:320px )"
+                      srcset="
+                        ./images/portfolio/list-foto-mobile-8.webp    1x,
+                        ./images/portfolio/list-foto-mobile-8@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:320px )"
+                      srcset="
+                        ./images/portfolio/list-foto-mobile-8    1x,
+                        ./images/portfolio/list-foto-mobile-8@2x 2x
+                      "
+                    />
+                    <img class="product__image" src="#" alt="фотография на ноутбуке" />
+                  </picture>
+
                   <div class="product__overlay">
                     <p class="product__overlay-text">
                       Технокряк это современная площадка распространения коронавируса. Компании
@@ -334,13 +671,55 @@
             <li class="product__item">
               <a class="product__link link" href="">
                 <div class="product__thumb">
-                  <img
-                    class="product__image"
-                    src="./images/portfolio/list-foto-9.jpg"
-                    alt="фотография на ноутбуке"
-                    width="370"
-                    height="294"
-                  />
+                  <picture class="product__picture">
+                    <source
+                      media="(min-width: 1200px )"
+                      srcset="
+                        ./images/portfolio/list-foto-desctop-9.webp    1x,
+                        ./images/portfolio/list-foto-desctop-9@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:1200px )"
+                      srcset="
+                        ./images/portfolio/list-foto-desctop-9    1x,
+                        ./images/portfolio/list-foto-desctop-9@2x 2x
+                      "
+                    />
+                    <source
+                      media="(min-width:768px )"
+                      srcset="
+                        ./images/portfolio/list-foto-tablet-9.webp    1x,
+                        ./images/portfolio/list-foto-tablet-9@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:768px )"
+                      srcset="
+                        ./images/portfolio/list-foto-tablet-9    1x,
+                        ./images/portfolio/list-foto-tablet-9@2x 2x
+                      "
+                    />
+                    <source
+                      media="(min-width:320px )"
+                      srcset="
+                        ./images/portfolio/list-foto-mobile-9.webp    1x,
+                        ./images/portfolio/list-foto-mobile-9@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:320px )"
+                      srcset="
+                        ./images/portfolio/list-foto-mobile-9    1x,
+                        ./images/portfolio/list-foto-mobile-9@2x 2x
+                      "
+                    />
+                    <img class="product__image" src="#" alt="фотография на ноутбуке" />
+                  </picture>
+
                   <div class="product__overlay">
                     <p class="product__overlay-text">
                       Технокряк это современная площадка распространения коронавируса. Компании
