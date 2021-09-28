@@ -259,6 +259,8 @@ body {
 }
 
 .close-btn {
+  width: 40px;
+  height: 40px;
   background-color: transparent;
   border: none;
   padding: 0;
@@ -266,8 +268,8 @@ body {
 }
 
 .close-btn__icon {
-  width: 40px;
-  height: 40px;
+  width: 18.67px;
+  height: 18.67px;
   fill: var(--black-title-color);
 }
 
@@ -277,7 +279,7 @@ body {
 
 .mobile-menu__close-btn {
   position: absolute;
-  top: 10px;
+  top: 15px;
   right: 15px;
 }
 

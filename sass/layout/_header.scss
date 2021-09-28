@@ -49,13 +49,15 @@
   pointer-events: auto;
 }
 .close-btn {
+  width: 40px;
+  height: 40px;
   background-color: transparent;
   border: none;
   padding: 0;
   line-height: 0;
   &__icon {
-    width: 40px;
-    height: 40px;
+    width: 18.67px;
+    height: 18.67px;
     fill: var(--black-title-color);
     &:hover,
     &:focus {
@@ -65,7 +67,7 @@
 }
 .mobile-menu__close-btn {
   position: absolute;
-  top: 10px;
+  top: 15px;
   right: 15px;
 }
 .mobile-menu__container {
